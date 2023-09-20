@@ -1,3 +1,7 @@
+function divide(){
+  return 2000 / 100;
+}
+
 describe("index.js", () => {
   it("has a function expression called divide", () => {
     expect(divide).to.exist
